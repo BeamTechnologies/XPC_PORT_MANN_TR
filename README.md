@@ -8,6 +8,10 @@ Kodun çalışma yöntemi, kaynak kodun içinde ayrıntılı bir şekilde açık
 
 Bu kod parçası, bir güvenlik açığı olduğundan, kötü amaçlı kişiler tarafından kullanılabilir. Bu nedenle, kullanıcıların güncellemeleri takip etmeleri ve bilinen güvenlik açıklarına karşı kendilerini korumaları önemlidir.
 
+The code initially creates a mach port and attempts to manipulate it for all-access, aiming to install a malicious process to crash the backboardd process. The working method of the code is detailed within the source code, including comments and notes for each function and library used. These comments and notes are attributed to the developer aliy_2001.
+
+Due to its exploitative nature, this code presents a security vulnerability that could be utilized by malicious actors. It is therefore important for users to stay up-to-date with security updates and take measures to protect themselves against known vulnerabilities.
+
 Requirements
 
 iOS 15.3-16.0
